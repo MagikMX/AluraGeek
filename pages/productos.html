@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- HEADER CSS -->
+		<link rel="stylesheet" href="../css/header/header.css" />
+		<!-- HERO CSS -->
+		<link rel="stylesheet" href="../css/hero/hero.css" />
+		<!-- MAIN CSS -->
+		<link rel="stylesheet" href="../styles.css" />
+		<!-- PRODUCTS CSS -->
+		<link rel="stylesheet" href="../css/productos/productos.css" />
+		<!-- CONTACTO CSS -->
+		<link rel="stylesheet" href="../css/contacto/contacto.css" />
+		<!-- FOOTER CSS -->
+		<link rel="stylesheet" href="../css/footer/footer.css" />
+		<!-- LOGIN CSS -->
+		<link rel="stylesheet" href="../css/login/login.css" />
+		<!-- FAVICON CSS -->
+		<link
+			rel="shortcut icon"
+			href="../img/favicon-32x32.png"
+			type="image/x-icon" />
+		<title>Alura Geek</title>
+	</head>
+	<body>
+		<!-- HEADER -->
+		<header class="header">
+			<div class="header__container">
+				<a href="../index.html"
+					><img
+						class="header__img element"
+						src="../img/logos/Logo.png"
+						alt="AluraGeek Logo"
+				/></a>
+				<form action="#" class="element">
+					<input
+						type="search"
+						name="searchBox"
+						id="searchBox"
+						placeholder="¿Qué deseas buscar?" />
+					<button type="submit" class="element">
+						<img src="../img/logos/search_Logo.png" alt="Search Logo" />
+					</button>
+				</form>
+			</div>
+		</header>
+		<!-- PRODUCTOS -->
+		<section class="productosG">
+			<div class="productoT productos">
+				<div class="titulo">
+					<p>Todos los productos</p>
+				</div>
+				<div class="mostrarM">
+					<div class="verTodo">
+						<a href="../pages/addProducts.html"
+							><button class="loginB">Agregar Producto</button></a
+						>
+					</div>
+				</div>
+			</div>
+			<section class="productos-S" data-allProducts></section>
+		</section>
+		<section class="contacto">
+			<div class="contacto__container">
+				<div class="empresa">
+					<img src="../img/logos/Logo.png" alt="Logo Alura Geek" />
+					<!-- LINKS HREF -->
+					<div class="links">
+						<ul>
+							<li><a href="#">Quiénes somos?</a></li>
+							<li><a href="#">Política de privacidad</a></li>
+							<li><a href="#">Programa de fidelidad</a></li>
+							<li><a href="#">Nuestras tiendas</a></li>
+							<li><a href="#">Quiero ser franquiciado</a></li>
+							<li><a href="#">Anuncie Aquí</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- FORM -->
+				<div class="form">
+					<p class="formT">Hable con nosotros</p>
+					<div class="labelF">
+						<input class="inputN" type="text" />
+						<label class="labelN" for="">Nombre</label>
+						<p class="error name-error">Introduce un nombre</p>
+					</div>
+					<textarea
+						name="mensaje"
+						id="msg"
+						cols="5"
+						rows="5"
+						placeholder="Escribe tu mensaje..."></textarea>
+					<p class="error textarea-error">Introduce el mensaje</p>
+					<button>Enviar mensaje</button>
+				</div>
+			</div>
+		</section>
+		<!-- FOOTER -->
+		<section class="footer">
+			<div class="footerT">
+				<p>Diseñado por Adrian Ayala &copy; 2023</p>
+			</div>
+		</section>
+		<script src="../js/listaProductos.js" type="module"></script>
+	</body>
+</html>

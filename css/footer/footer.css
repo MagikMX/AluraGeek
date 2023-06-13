@@ -1,0 +1,26 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    height: 35px;
+    width: 100%;
+}
+
+.footerT p {
+    font-size: 0.8rem;
+    color: var(--text-black);
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 769px) {
+    .footer {
+        height: 75px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .footer {
+        height: 35px;
+    }
+}

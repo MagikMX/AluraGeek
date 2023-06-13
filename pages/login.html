@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../css/header/header.css" />
+		<link rel="stylesheet" href="../styles.css" />
+		<link rel="stylesheet" href="../css/contacto/contacto.css" />
+		<link rel="stylesheet" href="../css/footer/footer.css" />
+		<link rel="stylesheet" href="../css/login/login.css" />
+		<title>Login - AluraGeek</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__container">
+				<a href="../index.html"
+					><img
+						class="header__img element"
+						src="../img/logos/Logo.png"
+						alt="AluraGeek Logo"
+				/></a>
+				<form action="" class="element">
+					<input
+						type="search"
+						name="searchBox"
+						id="searchBox"
+						placeholder="¿Qué deseas buscar?" />
+					<button type="submit" class="element">
+						<img src="../img/logos/search_Logo.png" alt="Search Logo" />
+					</button>
+				</form>
+			</div>
+		</header>
+		<main>
+			<section class="login">
+				<div class="loginForm">
+					<div class="loginT">
+						<h1>Iniciar sesión</h1>
+					</div>
+					<form action="#" class="formLogin" data-form>
+						<input
+							type="text"
+							class="login__input-user"
+							placeholder="Nombre de usuario"
+							required
+							data-user />
+						<input
+							type="email"
+							class="login__input-url"
+							placeholder="Escriba su correo electrónico"
+							required
+							data-email />
+						<input
+							type="password"
+							class="login__input-name"
+							placeholder="Escriba su contraseña"
+							required
+							data-password />
+						<button type="submit" class="loginB">Entrar</button>
+					</form>
+				</div>
+			</section>
+		</main>
+		<section class="contacto">
+			<div class="contacto__container">
+				<div class="empresa">
+					<img src="../img/logos/Logo.png" alt="Logo Alura Geek" />
+					<!-- LINKS HREF -->
+					<div class="links">
+						<ul>
+							<li><a href="#">Quiénes somos?</a></li>
+							<li><a href="#">Política de privacidad</a></li>
+							<li><a href="#">Programa de fidelidad</a></li>
+							<li><a href="#">Nuestras tiendas</a></li>
+							<li><a href="#">Quiero ser franquiciado</a></li>
+							<li><a href="#">Anuncie Aquí</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- FORM -->
+				<div class="form">
+					<p class="formT">Hable con nosotros</p>
+					<div class="labelF">
+						<input class="inputN" type="text" />
+						<label class="labelN" for="">Nombre</label>
+						<p class="error name-error">Introduce un nombre</p>
+					</div>
+					<textarea
+						name="mensaje"
+						id="msg"
+						cols="5"
+						rows="5"
+						placeholder="Escribe tu mensaje..."></textarea>
+					<p class="error textarea-error">Introduce el mensaje</p>
+					<button>Enviar mensaje</button>
+				</div>
+			</div>
+		</section>
+		<!-- FOOTER -->
+		<section class="footer">
+			<div class="footerT">
+				<p>Diseñado por Adrian Ayala &copy; 2023</p>
+			</div>
+		</section>
+		<script src="../js/loginControl.js" type="module"></script>
+	</body>
+</html>

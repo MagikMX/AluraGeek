@@ -1,0 +1,113 @@
+.hero {
+    background-image: url('../../img/backgrounds/hero_bg.png');
+    background-size: cover;
+    width: 100%;
+    height: 352px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px;
+    width: 90%;
+    height: 170px;
+    position: relative;
+    top: 20%;
+    gap: 1rem;
+}
+
+.heroT {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 61px;
+    color: #FFFFFF;
+}
+
+.heroP {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.heroB {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    color: #FFFFFF;
+    width: 129px;
+    height: 51px;
+    background: #2A7AE4;
+    transition: all 300ms;
+}
+
+.heroB:hover {
+    background-color: #266ecd;
+    color: var(--texto-blanco);
+}
+
+@media only screen and (min-device-width: 631px) and (max-device-width: 769px) {
+    .hero {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .heroP {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 630px) {
+    .hero {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .heroT {
+        font-size: 3rem;
+    }
+
+    .heroP {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .hero {
+        height: 192px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .hero__container {
+        top: 0;
+        gap: 0;
+    }
+
+    .heroT {
+        font-size: 1.3rem;
+        line-height: normal;
+    }
+
+    .heroP {
+        font-size: 0.8rem;
+        width: 100%;
+    }
+
+    .heroB {
+        border: none;
+        width: 118px;
+        height: 40px;
+    }
+}

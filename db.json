@@ -1,0 +1,138 @@
+{
+  "producto": [
+    {
+      "name": "Alura Latam",
+      "imageUrl": "https://avatars.githubusercontent.com/u/4975968?s=280&v=4",
+      "price": "165846.9",
+      "id": 1,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": ""
+    },
+    {
+      "name": "One",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlpa9JUDglJ_p5ecd3wZYJ6oNVkH-5dA-lS9zUZ0wyMvheUBgXnbKWhw44XtV1eYDUQjo&usqp=CAU",
+      "price": "100.00",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 4
+    },
+    {
+      "name": "Alura latam",
+      "imageUrl": "https://avatars.githubusercontent.com/u/4975968?s=280&v=4",
+      "price": "5",
+      "id": 6,
+      "description": ""
+    },
+    {
+      "name": "Flash",
+      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_643523-MLA49180554005_022022-O.webp",
+      "price": "16845",
+      "id": 7,
+      "description": "Funko Flash"
+    },
+    {
+      "name": "Capitán America",
+      "imageUrl": "https://m.media-amazon.com/images/I/51aqEMfw9KL._AC_SY879_.jpg",
+      "price": "1652",
+      "id": 8,
+      "description": "Apenas um teste!"
+    },
+    {
+      "name": "Super Man",
+      "imageUrl": "https://juguetesdecoleccion.com/wp-content/uploads/muneco-superman-funko-pop.jpg",
+      "price": "20",
+      "id": 14
+    },
+    {
+      "name": "Darth Vader",
+      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-O.webp",
+      "price": "25",
+      "id": 15
+    },
+    {
+      "name": "Flash",
+      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_643523-MLA49180554005_022022-O.webp",
+      "price": "25,99",
+      "id": 16,
+      "description": "25"
+    },
+    {
+      "name": "Batman",
+      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_640262-MCO47330060660_092021-O.webp",
+      "price": "60",
+      "id": 17
+    },
+    {
+      "name": "Hulk",
+      "imageUrl": "https://m.media-amazon.com/images/I/516X0YLRV+L._AC_SY879_.jpg",
+      "price": "30",
+      "id": 18
+    },
+    {
+      "name": "Hombre araña",
+      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_620343-MLA45333647274_032021-O.webp",
+      "price": "50",
+      "id": 19
+    },
+    {
+      "name": "Capitán America",
+      "imageUrl": "https://m.media-amazon.com/images/I/51aqEMfw9KL._AC_SY879_.jpg",
+      "price": "50",
+      "id": 20
+    },
+    {
+      "name": "Super Man",
+      "imageUrl": "https://juguetesdecoleccion.com/wp-content/uploads/muneco-superman-funko-pop.jpg",
+      "price": "80",
+      "id": 21
+    },
+    {
+      "name": "Flash",
+      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_643523-MLA49180554005_022022-O.webp",
+      "price": "85",
+      "id": 22
+    },
+    {
+      "name": "Batman 2",
+      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_640262-MCO47330060660_092021-O.webp",
+      "price": "60",
+      "id": 23
+    },
+    {
+      "name": "Soy Geek",
+      "imageUrl": "https://img.freepik.com/vetores-gratis/conjunto-de-estilo-geek_1284-4509.jpg?w=2000",
+      "price": "16",
+      "id": 26
+    },
+    {
+      "name": "Harry Potter",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0710/7313/6924/products/c86d341ccff6eb42ff7dfd2bcb0b93c7.png?v=1675099691&width=600",
+      "price": "6546",
+      "id": 28
+    },
+    {
+      "name": "Mandalorian",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0710/7313/6924/products/59a75cd9541f41710318efcb6c9ff2d7.png?v=1675130311&width=600",
+      "price": "1654",
+      "id": 29
+    },
+    {
+      "name": "Salsicha",
+      "imageUrl": "https://images.tcdn.com.br/img/img_prod/846162/funko_pop_salsicha_911_1857_1_028e22c5e310ba4469afcdbc0ab71c4d.jpg",
+      "price": "18646.8",
+      "id": 30
+    },
+    {
+      "name": "Mochila",
+      "imageUrl": "data:image/jpeg;base64,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",
+      "price": "259",
+      "id": 31
+    },
+    {
+      "name": "Mochila",
+      "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQPXM-ARWamdAxLXIjkon3pJrij1EM8ZPfn_z_eEQOry5V_CKtL4SLpQsf2zpKdk8RsUv-wOf2JcX7AXAIr3N_UsNm83lpo0qPprXn3yO7qniglZM7nGpaXNw&usqp=CAE",
+      "price": "250",
+      "id": 32
+    }
+  ]
+}

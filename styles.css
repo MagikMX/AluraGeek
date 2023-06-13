@@ -1,0 +1,48 @@
+:root {
+    --bg-color: #ebebeb;
+    --input-placeholder: #d4d4d4;
+    --input-bg: #efefef;
+    --texto-blanco: #ffff;
+    --azul-color: #2a7ae4;
+    --bg-contacto: #eaf2fd;
+    --text-black: #464646;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    scroll-behavior: smooth;
+}
+
+button {
+    outline: none;
+    border: none;
+}
+
+textarea:focus,
+input:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: var(--input-placeholder);
+    padding: 2%;
+}
+
+a {
+    text-decoration: none;
+    color: #303030;
+}
+
+button {
+    cursor: pointer;
+}

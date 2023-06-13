@@ -1,0 +1,145 @@
+.header {
+    background-color: #FFFFFF;
+    display: flex;
+    height: 85px;
+    width: 100%;
+    align-items: center;
+    padding: 32px 0px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+    height: 85px;
+}
+
+.element {
+    flex: 0 1 auto;
+}
+
+.login-btn {
+    background-color: transparent;
+    color: #2A7AE4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    border: 1px solid #2A7AE4;
+    width: 182px;
+    height: 51px;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.login-btn:hover {
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+}
+
+.loginB:hover {
+    background-color: transparent;
+    color: #2A7AE4;
+}
+
+.header__container form {
+    background: #F5F5F5;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    height: 40px;
+    width: 393px;
+}
+
+.header__container form input {
+    background-color: transparent;
+    color: #A2A2A2;
+    border: none;
+    height: 16px;
+    width: 329px;
+}
+
+.header__container form input::placeholder {
+    font-size: 0.9rem;
+}
+
+.header__container form input:focus {
+    font-size: 0.9rem;
+    color: #303030;
+}
+
+.header__container form button {
+    border: none;
+    background-color: #F5F5F5;
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.header__container form button:hover {
+    transform: scale(1.1);
+}
+
+.nav ul li img {
+    height: 50px;
+    width: 175px;
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 769px) {
+    .header__img {
+        width: 100px;
+        height: 28px;
+    }
+
+    .header__container form {
+        padding: 8px 16px;
+        gap: 8px;
+        width: 272px;
+        height: 40px;
+    }
+
+    .login-btn {
+        width: 166px;
+        height: 40px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .header__img {
+        width: 100px;
+    }
+
+    .login-btn {
+        width: 133px;
+        height: 40px;
+
+    }
+
+    .header__container form {
+        background-color: transparent;
+        width: 24px;
+        height: 24px;
+    }
+
+    .header__container form:focus {
+        border: 1px solid #2A7AE4;
+    }
+
+    .header__container form button {
+        background-color: #FFFFFF;
+    }
+
+    #searchBox {
+        display: none;
+    }
+}

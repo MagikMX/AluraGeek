@@ -1,0 +1,130 @@
+.productosG {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.productoT {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 110px 0px 120px;
+    /* min-height: 416px; */
+}
+
+.productos {
+    min-height: 370px;
+}
+
+.productoT .titulo {
+    color: #464646;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1.8rem;
+}
+
+.productosS {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.mostrarM {
+    cursor: pointer;
+    display: flex;
+    padding: 1.8rem;
+    transition: filter 300ms;
+}
+
+/*!     SECTION PRODUCTS    */
+
+.seccionP {
+    border: 1px solid red;
+    height: 100%;
+
+    width: 90%;
+}
+
+.precio {
+    color: #464646;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+.container {
+    position: relative;
+}
+
+.container .editImage {
+    position: absolute;
+    top: 30px;
+    right: 15px;
+}
+
+.container .deleteImage {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+
+.buttonDelete,
+.buttonEdit {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.editImage,
+.deleteImage {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+.verTodo {
+    display: flex;
+    gap: 0.4rem;
+    margin-right: 0.8rem;
+    transition: 300ms;
+}
+
+.verTodoI {
+    filter: invert(63%) sepia(11%) saturate(2027%) hue-rotate(177deg) brightness(90%) contrast(99%);
+}
+
+.verTodoI:hover {
+    filter: invert(48%) sepia(71%) saturate(4809%) hue-rotate(201deg) brightness(84%) contrast(89%);
+}
+
+@media only screen and (min-device-width: 773px) and (max-device-width: 1024px) {
+    .productoT {
+        min-height: 395px;
+    }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 769px) {
+    .productoT {
+        min-height: 301px;
+        padding: 0;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .productosG {
+        width: 100%;
+    }
+
+    .productoT {
+        min-height: 301px;
+        padding: 0;
+    }
+}

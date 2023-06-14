@@ -30,7 +30,7 @@ const obtenerProductos = (name, price, imageUrl, id) => {
     return card;
 };
 
-const productos = document.querySelector("[data-todoProductos]");
+const productos = document.querySelector("[data-allProducts]");
 
 productos.addEventListener("click", async (e) => {
     let borrarBoton = e.target.closest("[data-id]");

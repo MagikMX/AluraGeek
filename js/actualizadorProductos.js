@@ -16,8 +16,8 @@ conexionProductos.listarProductos(id).then((datos) => {
 });
 
 const formulario = document.querySelector("[data-form]");
-formulario.addEventListener("submit", (e) => {
-    e.preventDefault();
+formulario.addEventListener("submit", (evento) => {
+    evento.preventDefault();
     conexionProducto.alterarProducto(
         id,
         inputNombre.value,

@@ -8,7 +8,7 @@ const nuevoProducto = (name, price, imageUrl, id) => {
             <img src="${imageUrl}" alt="img">
             <h1 class="product-name"> ${name} </h1>
             <p class="precio">${formatoMoneda(price)}</p>
-            <a class="ver-producto" href="../produto.html?id=${id}">Ver Producto</a>
+            <a class="ver-producto" href="../produtos.html?id=${id}">Ver Producto</a>
         </div>`;
 
     tarjeta.innerHTML = contenido;

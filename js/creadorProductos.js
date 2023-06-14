@@ -1,8 +1,8 @@
 import { conexionProductos } from "./conexionProductos.js";
 
 const form = document.querySelector("[data-form]");
-form.addEventListener("submit", (e) => {
-    e.preventDefault();
+form.addEventListener("submit", (evento) => {
+    evento.preventDefault();
 
     const nombre = document.querySelector("[data-nombre]").value;
     const url = document.querySelector("[data-url]").value;
